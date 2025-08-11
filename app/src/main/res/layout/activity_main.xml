@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#A67458">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Medidas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        />
+
+
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite o valor"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textColorHint="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnMetrosKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Metros ➡ Km"
+        android:textColorLink="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnKmMetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Km ➡ Metros"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+
+</LinearLayout>
